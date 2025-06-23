@@ -1,0 +1,42 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+myenv/
+venv/
+env/
+.venv/
+
+# Sensitive credentials (NEVER commit these!)
+credentials.json
+token.json
+
+# Configuration secrets
+.env
+*.key
+*.pem
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+logs/
+
+# Rasa files (if applicable)
+models/
+.nlu/
+data/
+
+# PyCharm/VS Code settings
+.idea/
+.vscode/
+
+# Python packaging
+dist/
+build/
+*.egg-info/
